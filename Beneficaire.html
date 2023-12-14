@@ -1,0 +1,72 @@
+<style>
+    body {
+        background-image: url('womens.avif');
+        background-size: cover;
+        background-position: center;
+        background-color: #f2f2f2;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .button-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .button-container button {
+        margin: 10px;
+    }
+
+    .logo-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 10px;
+    }
+
+    .logo-container img {
+        width: 180px; /* Increase the width for clearer logo */
+    }
+</style>
+<div class="container">
+    <p style="font-family: 'Arial', sans-serif; font-size: 18px; color: #ff00ff; text-align: center;">Click the buttons below to explore our services:</p>
+
+    <div class="button-container">
+        <button onclick="showList()" style="background-color: #ff00ff; width: 300px; height: 100px; font-family: 'Arial', sans-serif; font-size: 16px; color: #ffffff;">
+            <img src="education.jpeg" alt="Educational Programs" style="width: 50px; height: 50px; padding-right: 10px;">
+            Educational Programs
+        </button>
+        <button onclick="showList()" style="background-color: #ff00ff; width: 300px; height: 100px; font-family: 'Arial', sans-serif; font-size: 16px; color: #ffffff;">
+            <img src="feedback.png" alt="Express and Create Designs" style="width: 50px; height: 50px; padding-right: 10px;">
+            Express and Feedbacks
+        </button>
+    </div>
+    <div class="button-container">
+        <button onclick="showList()" style="background-color: #ff00ff; width: 300px; height: 100px; font-family: 'Arial', sans-serif; font-size: 16px; color: #ffffff;">
+            <img src="medecine.png" alt="Telemedicine Services" style="width: 50px; height: 50px; padding-right: 10px;">
+            Telemedicine Services
+        </button>
+        <button onclick="showList()" style="background-color: #ff00ff; width: 300px; height: 100px; font-family: 'Arial', sans-serif; font-size: 16px; color: #ffffff;">
+            <img src="sharing.jpeg" alt="Learn from Others" style="width: 50px; height: 50px; padding-right: 10px; margin-left: 10px;">
+            Learn from Others
+        </button>
+    </div>
+
+    <div class="logo-container">
+        <img src="IEEE LOGO-black.png" alt="IEEE Logo">
+        <img src="wie.png" alt="WIE Logo">
+    </div>
+</div>
+   
